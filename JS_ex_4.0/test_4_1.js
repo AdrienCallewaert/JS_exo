@@ -1,16 +1,11 @@
 const readlineSync = require("readline-sync");
 
-function calcSurface() {
-    let longueur = Number(inputLongueurRectangle.value);
-    let largeur = Number(inputLargeurRectangle.value);
-    
-    let calcSurface = longueur * largeur;
+let len = new Number(readlineSync.question('lenght > rectangle : '));
+let wid = new Number(readlineSync.question('width > rectangle : '));
 
-    inputAireRectangle.value = calcSurface.toFixed(2);
+calcSurface(len,wid);
 
-    
-    if(inputLongueurRectangle.value === '' ||  inputLargeurRectangle.value === '') {
-        inputAireRectangle.value = '';
-    }
-
+function calcSurface(length,width) {
+    let surface = length*width;
+    console.log('Surface is : '+surface);
 }
