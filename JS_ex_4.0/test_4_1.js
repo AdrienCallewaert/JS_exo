@@ -9,3 +9,7 @@ function calcSurface(length,width) {
     let surface = length*width;
     console.log('Surface is : '+surface);
 }
+
+
+/*  calcSurface; l'utuilisateur entre la longeur et largeur du rectangle.
+    Ensuite les deux valeur sont multiplier et la consol affiche le résulat  */
