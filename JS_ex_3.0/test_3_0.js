@@ -1,3 +1,4 @@
 const readlineSync = require("readline-sync");
-let stringsArray = ["Apple", "Pear", "Banana", "Cherry"];
-console.log(stringsArray);
+let arr = [1, 2, 3];
+console.log("The size is " + arr.length);
+arr
