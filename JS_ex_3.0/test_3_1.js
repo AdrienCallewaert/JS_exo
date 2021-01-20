@@ -7,7 +7,7 @@ let sum2 = 0;
 for (let i = 0;i < tab.length; i++){
     console.log(sum);
     sum = new Number(sum+tab[i]);
-    console.log(sum)
+    
 }
 for (let j = 0;j < tab2.length; j++){
     console.log(sum2);
