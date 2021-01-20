@@ -1,16 +1,18 @@
 const readlineSync = require("readline-sync");
-let Array1 = [1, 2, 3, 4, 5];
-let Array2 = [100, 101, 102];
-let low = +"0";
-let high = +"0";
 
-for (let index = 0; index < Array1.length; index++) {
-    low += Array1[index];
+let tab = [1, 2, 3, 4, 5];
+let tab2 = [100, 101, 102];
+let sum = 0;
+let sum2 = 0;
+for (let i = 0;i < tab.length; i++){
+    console.log(sum);
+    sum = new Number(sum+tab[i]);
+    console.log(sum)
 }
-
-for (let index = 0; index < Array2.length; index++) {
-    high += Array2[index];
+for (let j = 0;j < tab2.length; j++){
+    console.log(sum2);
+    sum2 = new Number(sum2+tab2[j]);
+    console.log(sum2);
 }
-
-console.log(low);
-console.log(high);
+console.log(sum);
+console.log(sum2);
