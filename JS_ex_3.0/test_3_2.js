@@ -1,7 +1,6 @@
 const readlineSync = require("readline-sync");
 
 let tab = [1, 2, 3, 4, 5];
-let tab2 = [100, 101, 102];
 
   function numAverage(a) {
     var b = a.length,
@@ -16,7 +15,6 @@ let tab2 = [100, 101, 102];
   }
 
 numAverage(tab);
-numAverage(tab2);
 
 
 /*function compteur() {
