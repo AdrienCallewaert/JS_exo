@@ -1,6 +1,6 @@
 const readlineSync = require("readline-sync");
 let num = new Number(readlineSync.question('Enter a number : '));
-
+    //calcul du factoriel
 function factorial(nb) {
     if (nb == 0) {
         return 1;
